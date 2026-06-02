@@ -2,11 +2,9 @@
 
 <div align="center">
 
-### A low-cost solar thermal oven developed through theoretical modeling, numerical simulation, and experimental prototyping.
+### Award-winning solar thermal oven developed through theoretical modeling, prototyping, and experimental validation.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Physics](https://img.shields.io/badge/Computational%20Physics-Modeling-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+🏆 **3rd Place Award** — EX067: Development and Prototyping of Social Impact Projects in a Maker Environment (UNICAMP, 2025)
 
 </div>
 
@@ -14,18 +12,11 @@
 
 ## 📖 Overview
 
-**Solaris** is an interdisciplinary engineering project focused on the development of a low-cost solar thermal oven capable of converting solar radiation into usable thermal energy.
+**Solaris** was an interdisciplinary project developed by undergraduate students from Engineering Physics, Applied Mathematics, and Mechanical Engineering.
 
-The project integrated concepts from:
+The project aimed to investigate the use of concentrated solar energy as a low-cost and sustainable solution for food heating applications.
 
-* Engineering Physics
-* Applied Mathematics
-* Mechanical Engineering
-* Heat Transfer
-* Renewable Energy Systems
-* Computational Modeling
-
-The development process combined theoretical analysis, numerical simulations, prototype construction, and experimental validation to investigate the feasibility of solar concentration for food-heating applications.
+By combining theoretical analysis, prototype development, and experimental testing, the team explored how accessible materials could be used to create a functional solar thermal system.
 
 ---
 
@@ -34,25 +25,36 @@ The development process combined theoretical analysis, numerical simulations, pr
 Solaris was developed during the undergraduate course:
 
 **EX067 – Development and Prototyping of Social Impact Projects in a Maker Environment**
+
 (*Desenvolvimento e prototipagem de projetos de impacto social em ambiente Maker*)
 
 **University of Campinas (UNICAMP)**
-**1st Semester of 2025**
+**First Semester of 2025**
 
-The course focuses on project-development methodologies, maker-space prototyping, and proof-of-concept validation for products and services with potential social impact.
+The course focuses on project development methodologies, maker-space prototyping, and proof-of-concept validation for products and services with potential social impact.
 
-As part of this initiative, the Solaris team proposed, designed, modeled, prototyped, and experimentally evaluated a solar thermal oven built from accessible and low-cost materials.
+---
+
+## 🏆 Recognition
+
+The Solaris project was awarded **3rd Place** in the final project competition of the course.
+
+The award recognized the integration of:
+
+* Theoretical modeling;
+* Prototype development;
+* Experimental validation;
+* Social-impact oriented engineering design.
 
 ---
 
 ## 🎯 Objectives
 
 * Develop a low-cost solar oven using accessible materials;
-* Explore the use of concentrated solar energy for thermal applications;
+* Investigate the use of concentrated solar radiation for thermal applications;
 * Model the thermal behavior of the system;
-* Predict temperature evolution through numerical simulations;
-* Construct and experimentally test a physical prototype;
-* Evaluate the viability of the proposed design.
+* Build and test a functional prototype;
+* Evaluate the feasibility of the proposed solution.
 
 ---
 
@@ -62,13 +64,12 @@ The project followed a Design Thinking workflow:
 
 1. Problem identification;
 2. Concept development;
-3. Theoretical modeling;
-4. Computational simulation;
-5. Prototype construction;
-6. Experimental testing;
-7. Performance evaluation.
+3. Theoretical analysis;
+4. Prototype construction;
+5. Experimental testing;
+6. Validation and evaluation.
 
-This iterative process allowed the team to connect theoretical predictions with real-world observations.
+This iterative process allowed the team to connect scientific principles with practical engineering solutions.
 
 ---
 
@@ -76,34 +77,20 @@ This iterative process allowed the team to connect theoretical predictions with 
 
 The thermal behavior of the oven was described through an energy balance involving:
 
-* Solar radiation absorption;
+* Solar energy absorption;
 * Thermal radiation losses;
-* Convective heat exchange with the environment.
+* Convective heat transfer;
+* Environmental effects.
 
-The resulting nonlinear differential equation governs the temperature evolution of the system and serves as the foundation of the numerical simulations presented in this repository.
+The resulting model was used to estimate the temperature evolution of the system and guide design decisions throughout the project.
 
 ---
 
-## 💻 Computational Simulation
+## 💻 Computational Study
 
-To investigate the thermal performance of the oven under different conditions, a numerical model was implemented in Python.
+Numerical simulations were performed as part of the project to investigate the thermal behavior of the proposed system under different operating conditions.
 
-The governing differential equation is solved using the **Fourth-Order Runge-Kutta (RK4)** method.
-
-The simulation allows the study of:
-
-* Heating rates;
-* Equilibrium temperatures;
-* Solar irradiance effects;
-* Convective losses;
-* Radiative losses;
-* Environmental influences on performance.
-
-### About this Repository
-
-The original Solaris project combined theoretical, experimental, and computational work.
-
-For clarity and reproducibility, this repository presents an **independent implementation** of the thermal model developed during the project. The objective is to reproduce and explore the physical principles, numerical methods, and engineering concepts investigated by the team.
+This repository contains an independent implementation inspired by the theoretical framework developed during Solaris and is intended to illustrate the physical principles explored during the project.
 
 ---
 
@@ -120,7 +107,7 @@ A physical prototype was constructed using commercially available and low-cost c
 | Candles (thermal storage tests) |      R$ 12.29 |
 | **Total Cost**                  | **R$ 145.62** |
 
-The prototype employed a reflective parabolic geometry capable of concentrating incoming solar radiation onto a focal region, increasing the available thermal power.
+The prototype used a reflective parabolic geometry to concentrate solar radiation onto a focal region.
 
 ---
 
@@ -136,15 +123,15 @@ The prototype employed a reflective parabolic geometry capable of concentrating 
 
 ## 📈 Experimental Results
 
-Experimental tests demonstrated the ability of the system to concentrate solar energy and produce measurable heating effects.
+Experimental tests demonstrated the ability of the system to concentrate solar radiation and generate significant heating effects.
 
 Observed outcomes included:
 
-* Heating of dry leaves exposed to the focal region;
-* Heating of MDF samples through concentrated solar radiation;
-* Validation of the proposed proof of concept.
+* Heating of dry leaves placed at the focal region;
+* Heating of MDF samples exposed to concentrated sunlight;
+* Validation of the proof of concept.
 
-These results provided qualitative verification of the physical principles employed throughout the project.
+These results provided qualitative verification of the project's theoretical predictions.
 
 ---
 
@@ -154,36 +141,7 @@ These results provided qualitative verification of the physical principles emplo
 <img src="figures/simulation.png" width="700">
 </p>
 
-The computational model predicts the temperature evolution of the system and enables comparisons between different operating conditions.
-
-Simulation studies can be used to investigate:
-
-* Solar irradiance effects;
-* Thermal equilibrium conditions;
-* Convective and radiative heat losses;
-* Design optimization strategies.
-
----
-
-## 🚀 Technologies Used
-
-### Engineering & Physics
-
-* Heat Transfer
-* Thermal Radiation
-* Energy Balance Analysis
-* Renewable Energy Systems
-
-### Programming
-
-* Python
-* NumPy
-* Matplotlib
-
-### Numerical Methods
-
-* Fourth-Order Runge-Kutta (RK4)
-* Nonlinear Differential Equations
+Computational studies were used to investigate the thermal response of the system and support the interpretation of experimental observations.
 
 ---
 
@@ -207,8 +165,6 @@ Solaris/
 
 ## 👥 Team
 
-### Solaris Project Team
-
 Developed for:
 
 **EX067 – Development and Prototyping of Social Impact Projects in a Maker Environment**
@@ -229,9 +185,7 @@ Team members:
 
 ## 🌎 Impact
 
-Solaris demonstrates how theoretical modeling, numerical simulation, and experimental engineering can be combined to develop practical renewable-energy solutions using accessible materials and low-cost technologies.
-
-The project highlights the role of computational physics, engineering design, and maker-based prototyping in the development of socially impactful technologies.
+Solaris demonstrates how scientific modeling, engineering design, and maker-based prototyping can be combined to create accessible renewable-energy solutions with potential social impact.
 
 ---
 
