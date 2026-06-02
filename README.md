@@ -97,7 +97,7 @@ Numerical simulations were performed to investigate the thermal response of the 
 
 This repository contains an independent implementation inspired by the theoretical framework developed during the Solaris project and is intended to illustrate the physical principles explored during its development.
 
-The numerical model is based on the solution of the governing energy-balance equation using the Fourth-Order Runge-Kutta (RK4) method.
+This repository presents a standalone implementation of the thermal model investigated during the Solaris project.
 
 ---
 
