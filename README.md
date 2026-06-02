@@ -17,7 +17,7 @@ The project investigated the use of concentrated solar energy as a low-cost and 
 ## 📸 Prototype
 
 <p align="center">
-  <img src="figures/prototype.jpg" width="600">
+  <img src="Solaris/figures/Prototype.png" width="600">
 </p>
 
 *Experimental solar concentrator built during the Solaris project.*
